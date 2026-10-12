@@ -21,3 +21,14 @@ dice_match_3
 bet_one_symbol
 bet_multi_symbol
 no_hit_this_roll
+each_round
+manual
+before_roll
+on_acquire
+last_roll
+kpi_not_met
+devil_cheating
+talisman_activated
+hit_next_roll
+miss_next_roll
+bet_cursed_symbol

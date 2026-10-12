@@ -1,0 +1,270 @@
+,,,,Rarity,,,,,,
+,,,,Common,,,,,,
+,,,,Uncommon,,,,,,
+,,,,Rare,,,,,,
+,,,,Legendary,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Config ID,Item Name,Category,Description,Rarity,Visible,Only in Devil Pact,Unlock Condition,Card State,Extra Note,
+0,Two More Times,Talisman,"+2 Dice Rolls, -10% value for all symbols",Common,TRUE,FALSE,None,Passive,,
+1,Roll and Roll,Talisman,On any roll: 10% chance to gain +1 additional roll,Common,TRUE,FALSE,None,Passive,,
+2,Shrimp Swarm,Talisman,Each time Shrimp appears: 20% chance to gain +1 Dice Per Round (30% chance if betting on Shrimp),Uncommon,TRUE,FALSE,None,Passive,,
+3,Fish Fortune,Talisman,Each time Fish appears: 20% chance to add payout = 5% of current Debt (50% chance if betting on Crab),Uncommon,TRUE,FALSE,None,Passive,,
+4,Flourish,Talisman,Each time Gourd appears: 20% chance to gain +5% total payout (50% chance if betting on Gourd),Uncommon,TRUE,FALSE,None,Passive,,
+5,Crab Harvest,Talisman,"Night only: If betting on Crab and Crab appears, Crab gets +40% value",Uncommon,TRUE,FALSE,None,Passive,,
+6,Chicken Clock,Talisman,"Morning only: If betting on Chicken and Chicken appears, Chicken gets +40% value",Uncommon,TRUE,FALSE,None,Passive,,
+7,Oh Deer,Talisman,"Evening only: If betting on Deer and Deer appears, Deer gets +40% value",Uncommon,TRUE,FALSE,None,Passive,,
+8,Keep Double Up,Talisman,"When 2 dice match a symbol you are betting on, x2 value on that symbol",Common,TRUE,FALSE,None,Passive,,
+9,Keep Tribble Up,Talisman,"When 3 dice match a symbol you are betting on, x3 value on that symbol",Common,TRUE,FALSE,None,Passive,,
+10,All In,Talisman,"If you bet on only 1 symbol, that symbol gets +20% value for each dice hit",Rare,TRUE,FALSE,None,Passive,,
+11,Betting Tactic,Talisman,"If you bet on 2 or more symbols, each that symbol gets +20% value for each dice hit",Rare,TRUE,FALSE,None,Passive,,
+12,"Still Breathing, Still Gambling",Talisman,"If no hit this roll, gain +20% value to betting symbols' value for next roll.",Uncommon,TRUE,FALSE,None,Passive,,
+13,Silver Crab,Talisman,"Put Blessing on Crab, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+14,Silver Deer,Talisman,"Put Blessing on Deer, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+15,Silver Chicken,Talisman,"Put Blessing on Chicken, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+16,Silver Fish,Talisman,"Put Blessing on Fish, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+17,Silver Shrimp,Talisman,"Put Blessing on Shrimp, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+18,Silver Gourb,Talisman,"Put Blessing on Gourd, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+19,Discount,Talisman,-5 Fortune Require For Active Talisman,Rare,TRUE,FALSE,None,Passive,,
+20,Bet Hard,Talisman,"Bet ceilling +20%, -1 Bet Slot Coverage",Rare,TRUE,FALSE,None,Passive,,
+21,More Slot Please,Talisman,"+1 Bet Slot Coverage, -1 Dice Rolls",Uncommon,TRUE,FALSE,None,Passive,,
+22,No Need Water,Talisman,"Bet Ceiling +15%, but -25% Fish, Crab, Shrimp value",Uncommon,TRUE,FALSE,None,Passive,,
+23,No Need Surface,Talisman,"Bet Ceiling +10%, but -25% Deer, Chicken value",Uncommon,TRUE,FALSE,None,Passive,,
+24,Hatch,Talisman,"+1 Bet Slot Coverage, but -25% Gourd value",Uncommon,TRUE,FALSE,None,Passive,,
+,,,,,,,,,,
+25,Shuffle Blessing,Talisman,Consume 30 Fortune: Put 3 random positive modifer for 3 Random Symbols and Curse for other 3 Random Symbols this round.,Uncommon,TRUE,FALSE,None,Active,,Minimum: 10 Active Talisman
+26,Weather Blessing,Talisman,"Consume 40 Fortune: Morning +2 Dice, Evening -20% KPI Requirement during that round, Night: +10% Bet Ceilling this round.",Uncommon,TRUE,FALSE,None,Active,,
+27,Dice Blessing,Talisman,Consume 20 Fortune before rolling: +1 Dice.,Uncommon,TRUE,TRUE,None,Active,,
+28,Twist of Fate,Talisman,"Before rolling, you can activate the Devil Cheating immediately, +30 Fortune and +10% Bet Ceilling during that round",Rare,TRUE,FALSE,None,Active,,
+29,Double down where you fall,Talisman,"Consume 40 Fortune: If hit the next roll, -10% KPI Requirement. Otherwise +20% KPI Requirement",Rare,TRUE,FALSE,None,Active,,
+30,Lucky Pick,Talisman,Consume 10 Fortune: Put a random modifer for a Random Symbol this round.,Common,TRUE,FALSE,None,Active,,
+31,Predator sense,Talisman,"Consume 20 Fortune: Choose a symbol, that chosen symbol will has Predator modifer this round. 
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of other active modifiers this round.",Common,TRUE,FALSE,Predator,Active,,
+32,Clean,Talisman,Consume 60 Fortune: Clean a curse of a chosen cursed symbol.,Common,TRUE,FALSE,Blessing,Active,,
+33,Not Today,Talisman,Consume 100 Fortune: Win The Current Round immediately and destroy this talisman,Legendary,TRUE,FALSE,None,Active,,
+34,The Combination,Talisman,"Consume 90 Fortune: Choose a symbol. that chosen will have Predator and Blessing this round. 
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of other active modifiers this round.
+Blessed: +20% value on blessed symbols.",Legendary,TRUE,FALSE,Predator + Blessing,Active,,
+35,Trolling With The Devil,Talisman,Consume 80 Fortune: Activate The Devil Cheating but reverse their cheating effect.,Rare,TRUE,FALSE,None,Active,,
+36,Rewind Time,Talisman,"Consume 50 Fortune: Win and Return to last round immediately, Keep the own talisman, also destroy this talisman",Rare,TRUE,FALSE,None,Active,,
+37,Devil Got Cooked,Talisman,"Consume 300 Fortune: Deactive Devil's Cheating For Whole Game, and destroy this talisman.",Legendary,TRUE,FALSE,None,Active,,
+,,,,,,,,,,
+38,Good Enough,Talisman,-3 Dice Rolls and -30% KPI Requirement,Uncommon,TRUE,FALSE,None,Passive,,
+39,Last Breath,Talisman,"When you use your final roll and still haven't meet KPI, you will gain 2 more dice rolls. After the effect trigged, destroy this talisman.",Legendary,TRUE,FALSE,None,Passive,,
+40,Roll to fortune,Talisman,"Each round, automatically put Fortune on 2 random symbols, if you bet on and roll hit the fortunate symbol, you get 1 Fortune.",Common,TRUE,FALSE,None,Passive,,
+41,Power Spread,Talisman,"+ 1 Bet Slot Coverage. If you bet on cursed symbol, put 3 random modifer into other symbols.",Uncommon,TRUE,FALSE,None,Passive,,
+42,Predator,Talisman,"Each round, automatically put Predator on 1 random symbols. 
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of other active modifiers this round.",Uncommon,TRUE,FALSE,None,Passive,,
+43,Blessing,Talisman,"Each round, automatically put Blessing on 1 random symbols.
+Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+44,Cursed Fortune,Talisman,"+10% Cheating Chance, Each time the Devil Cheating, +2 Fortune for each positive modifer on the board.",Uncommon,TRUE,FALSE,None,Passive,,
+45,Lucky Draw,Talisman,"When you take this talisman, +2 Random Talisman",Uncommon,TRUE,FALSE,None,Passive,,
+46,Investment,Talisman,Each Talisman that activate generates 1 Fortune.,Rare,TRUE,FALSE,None,Passive,,
+47,Cheating to Grow,Talisman,"Each time the Devil Cheating, +10% Value for all symbols for the next roll.",Uncommon,TRUE,FALSE,None,Passive,,
+48,The Final Word,Talisman,Last Roll of the round +5% Value for all symbols (+1% for each talisman activated),Uncommon,TRUE,FALSE,None,Passive,,
+49,Curse,Talisman,"-20% KPI Requirement. Each round, put Curse on 2 random symbols
+Cursed Symbols: -20% value on cursed Symbols",Uncommon,TRUE,FALSE,None,Passive,,
+,,,,,,,,,,
+1000,Devil of Greed (Mortal Realm),Devil,"Start with Dice Blessing Talisman
+
+Tax Collector: Each round, put Curse on your previous betting symbols, Cursed Symbols: -20% value of all symbols.
+Cheating: When you start rolling, 20% to -2 Rolls and put Curse on all symbols, Cursed Symbols: -20% value of all symbols.",Mortal Realm,TRUE,TRUE,None,,,
+1001,Devil of Greed (Hungry Ghost Realm),Devil,"Start with Dice Blessing Talisman, +5% Bet Celling
+Skims 8% off every winning payout silently
+Cheating: Each round, 15% to -2 Rolls and -25% value of all symbols",Hungry Ghost Realm,TRUE,TRUE,Complete the Devil Greed,,,
+1002,Devil of Greed (Hell Realm),Devil,"Start with Dice Blessing Talisman, +5% Bet Celling, +1 Slot Coverage
+
+Skims 12% off every winning payout silently
+
+Leftover rolls on clear ? +10% KPI next round
+
+Cheating: Each round, 20% to -2 Rolls and -25% value of all symbols",Hell Realm,TRUE,TRUE,,,,
+1003,Devil of Greed (Avacii),Devil,"Start with Dice Blessing Talisman, +1 Dice, +5% Bet Celling, +1 Slot Coverage
+
+Skims 15% off every winning payout silently
+
+Leftover rolls on clear ? +15% KPI next round
+
+Cheating: Each round, 30% to -4 Rolls and -30% value of all symbols",Avicii,TRUE,TRUE,,,,
+,,,,,,,,,,
+1012,Devil of Sexual Misconduct (Mortal Realm),Devil,"Start with Beginner's Luck Talisman, +1 Bet Slot Coverage
+
+Twist of Fate will not appear.
+
+Charmed Symbols: At the start of each round, +20% value for 3 random symbols as charmed symbols, -10% Value for 3 other symbols.
+
+Cheating: If the player bet on charmed symbols, 20% to -40% value on that symbols.",,,,,,,
+1013,Devil of Sexual Misconduct (Hungry Ghost Realm),Devil,"Start with Beginner's Luck Talisman, +1 Bet Slot Coverage, +5% Bet Celling
+
+Twist of Fate will not appear.
+
+Charmed Symbols: At the start of each round, +20% value for 3 random symbols as charmed symbols, -15% Value for 3 other symbols.
+
+Cheating: If the player bet on charmed symbols, 20% to -45% value on that symbols.",,,,,,,
+1014,Devil of Sexual Misconduct (Hell Realm),Devil,"Start with Beginner's Luck Talisman, +1 Bet Slot Coverage, +10% Bet Celling
+
+Twist of Fate will not appear.
+
+Charmed Symbols: At the start of each round, +20% value for 3 random symbols as charmed symbols, -20% Value for 3 other symbols.
+
+Cheating: If the player bet on charmed symbols, 25% to -50% value on that symbols.",,,,,,,
+1015,Devil of Sexual Misconduct (Avacii),Devil,"Start with Beginner's Luck Talisman, +1 Bet Slot Coverage, +1 Dice, +10% Bet Celling
+
+Twist of Fate will not appear.
+
+Charmed Symbols: At the start of each round, +25% value for 3 random symbols as charmed symbols, -25% Value for 3 other symbols.
+
+Cheating: If the player bet on charmed symbols, 30% to -60% value on that symbols.",,,,,,,
+1004,Devil of Killing (Mortal Realm),Devil,"Blood Toll: First failed roll each round consumes 1 additional Roll. 
+
+Cheating: 10% chance at round start to lose 1 Roll.",,,,,,,
+1005,Devil of Killing (Hungry Ghost Realm),Devil,"+1 Rolls, +5% Bet Ceiling, +5% Fortune
+
+Blood Toll: First failed roll consumes 1 additional Roll. 
+
+Cheating: 20% chance to lose 1 Roll.",,,,,,,
+1006,Devil of Killing (Hell Realm),Devil,"+2 Rolls, +5% Bet Ceiling, +10% Fortune
+
+Blood Toll: First failed roll each round consumes 2 additional Roll. 
+
+Cheating: 20% chance at round start to lose 2 Rolls.",,,,,,,
+1007,Devil of Killing (Avacii),Devil,"+2 Rolls, +10% Bet Ceiling, +15% Fortune
+
+Blood Toll: Every failed roll consumes 2 additional Roll.
+
+Cheating: 30% chance at round start to lose 2 Rolls.",,,,,,,
+1008,Devil of Stealing (Mortal Realm),Devil,"Pickpocket: On round clear, steal 5% of accumulated Fortune. 
+
+Cheating: 5% of the highest single-roll payout is stolen.",,,,,,,
+1009,Devil of Stealing (Hungry Ghost Realm),Devil,"+20% Starting Fortune, +5% Fortune
+
+Pickpocket: Steal 10% of accumulated Fortune.
+
+Cheating: 10% of the highest single-roll payout is stolen.",,,,,,,
+1010,Devil of Stealing (Hell Realm),Devil,"+20% Starting Fortune, +1 Slot Coverage, +10% Fortune
+
+Pickpocket: Steal 15% of accumulated Fortune. 
+
+Cheating: 15% of the highest single-roll payout is stolen.",,,,,,,
+1011,Devil of Stealing (Avacii),Devil,"+25% Starting Fortune, +1 Slot Coverage, +15% Fortune
+
+Pickpocket: Steal 20% of accumulated Fortune. 
+
+Cheating: 20% of the highest single-roll payout is stolen.",,,,,,,
+1016,Devil of Lying (Mortal Realm),Devil,"Lying: Once Per Round. Change All Dices Symbols If 3 Same Symbols Are Rolled
+
+Cheating: 25% Next Shop Cost Nothing or  10% Double Price",,,,,,,
+1017,Devil of Lying (Hungry Ghost Realm),Devil,"+5% Fortune, +1 Roll
+
+Lying: Once Per Round. Change All Dices Symbols If 3 Same Symbols Are Rolled
+
+Cheating: 20% Next Shop Cost Nothing or  15% Double Price",,,,,,,
+1018,Devil of Lying (Hell Realm),Devil,"+10% Fortune, +1 Roll, +1 Bet Ceiling
+
+Lying: Once Per Round. Change All Dices Symbols If 2+ Same Symbols Are Rolled
+
+Cheating: 10% Next Shop Cost Nothing or  20% Double Price",,,,,,,
+1019,Devil of Lying (Avacii),Devil,"+20% Fortune, +2 Roll, +1 Bet Ceiling 
+
+Lying: Once Per Round. Change All Dices Symbols If 2+ Same Symbols Are Rolled
+
+Cheating: 5% Next Shop Cost Nothing or  25% Double Price",,,,,,,
+1020,Devil of Divisive Speech (Mortal Realm),Devil,"Division: Bets covering 3+ symbols receive -10% payout.
+
+Cheating: Each additional covered symbol reduces total payout by 3%.",,,,,,,
+1021,Devil of Divisive Speech (Hungry Ghost Realm),Devil,"+5% Bet Ceiling, +5% Fortune
+
+Division: Bets covering 3+ symbols receive -15% payout.
+
+Cheating: Each additional covered symbol reduces total payout by 5%.",,,,,,,
+1022,Devil of Divisive Speech (Hell Realm),Devil,"+5% Bet Ceiling, +10% Fortune, +1 Bet Coverage
+
+Division: Bets covering 2+ symbols receive -15% payout.
+
+Cheating: Each additional covered symbol reduces total payout by 7%.",,,,,,,
+1023,Devil of Divisive Speech (Avacii),Devil,"+10% Bet Ceiling, +20% Fortune, +1 Bet Coverage
+
+Division: Bets covering 2+ symbols receive -20% payout.
+
+Cheating: Each additional covered symbol reduces total payout by 10%.",,,,,,,
+1024,Devil of Harsh Speech (Mortal Realm),Devil,"+1 Roll , +5% Payout, +5% Starting Fortune
+
+Harsh Words: Next roll after a failed roll: -10% payout
+
+Cheating: 2 consecutive failures ? next roll -1 Bet Slot",,,,,,,
+1025,Devil of Harsh Speech (Hungry Ghost Realm),Devil,"+1 Roll , +8% Payout, +8% Starting Fortune
+
+Harsh Words: Next roll after a failed roll: -15% payout
+
+Cheating: 2 consecutive failures ? next roll -1 Bet Slot",,,,,,,
+1026,Devil of Harsh Speech (Hell Realm),Devil,"+1 Roll , +10% Payout, +10% Starting Fortune
+
+Harsh Words: Next roll after a failed roll: -20% payout
+
+Cheating: 2 consecutive failures ? next roll -2 Bet Slot",,,,,,,
+1027,Devil of Harsh Speech (Avacii),Devil,"+2 Roll , +12% Payout, +15% Starting Fortune
+
+Harsh Words: Next roll after a failed roll: -30% payout
+
+Cheating: 2 consecutive failures ? next roll -2 Bet Slot",,,,,,,
+1028,Devil Frivolous Speech (Mortal Realm),Devil,"+1 Rolls, +5% Bet Ceiling, +1 Bet Slot
+
+
+Wasteful Words: Every 3rd roll has -15% payout.
+
+Cheating: Once per round, 1 random Bet Slot cannot be used.",,,,,,,
+1029,Devil Frivolous Speech (Hungry Ghost Realm),Devil,"+1 Rolls, +8% Bet Ceiling, +1 Bet Slot
+
+Wasteful Words: Every 3rd roll has -20% payout.
+
+Cheating: 1 random Bet Slot cannot be used for 2 rolls.",,,,,,,
+1030,Devil Frivolous Speech (Hell Realm),Devil,"+2 Rolls, +10% Bet Ceiling, +1 Bet Slot
+
+Wasteful Words: Every 2nd roll has -20% payout.
+
+Cheating: 1 random Bet Slot cannot be used for 2 rolls",,,,,,,
+1031,Devil Frivolous Speech (Avacii),Devil,"+2 Rolls, +15% Bet Ceiling, +2 Bet Slot
+
+Wasteful Words: Every 2nd roll has -30% payout.
+
+Cheating: 2 random Bet Slot cannot be used for next roll.",,,,,,,
+1032,Devil of Hatred (Mortal Realm),Devil,"+5% Payout, +1 Bet Slot, +5% Starting Fortune.
+
+No Reason Hating: 1 Random Symbol -20% Value Every Round
+
+Cheating: Betting On Hated Symbol -10% more Value",,,,,,,
+1033,Devil of Hatred (Hungry Ghost Realm),Devil,"+8% Payout, +1 Bet Slot, +8% Starting Fortune.
+
+No Reason Hating: 1 Random Symbol -25% Value Every Round
+
+Cheating: Betting On Hated Symbol -15% more Value",,,,,,,
+1034,Devil of Hatred (Hell Realm),Devil,"+10% Payout, +2 Bet Slot, +10% Starting Fortune.
+
+No Reason Hating: 2 Random Symbol -30% Value Every Round
+
+Cheating: Betting On Hated Symbol -20% more Value",,,,,,,
+1035,Devil of Hatred (Avacii),Devil,"+12% Payout, +2 Bet Slot, +15% Starting Fortune.
+
+No Reason Hating: 3 Random Symbol -40% Value Every Round
+
+Cheating: Betting On Hated Symbol -25% more Value",,,,,,,
+1036,Devil of Delusion (Mortal Realm),Devil,"+5% Bet Ceiling, +5% Payout, +1 Roll
+
+15% Of Turning Used Active Talisman To Another Active Talisman
+
+Cheating: Per Round, 1 Symbol Value become temporarily incorrect",,,,,,,
+1037,Devil of Delusion (Hungry Ghost Realm),Devil,"+8% Bet Ceiling, +8% Payout, +1 Roll
+
+20% Of Turning Used Active Talisman To Another Active Talisman
+
+Cheating: Per Round, 1 Symbol Value become temporarily incorrect",,,,,,,
+1038,Devil of Delusion (Hell Realm),Devil,"+10% Bet Ceiling, +10% Payout, +2 Roll
+
+25% Of Turning Used Active Talisman To Another Active Talisman
+
+Cheating: Per Round, 2 Symbol Value become temporarily incorrect",,,,,,,
+1039,Devil of Delusion (Avacii),Devil,"+15% Bet Ceiling, +12% Payout, +2 Roll
+
+30% Of Turning Used Active Talisman To Another Active Talisman
+
+Cheating: Per Round, 2 Symbol Value become temporarily incorrect",,,,,,,
