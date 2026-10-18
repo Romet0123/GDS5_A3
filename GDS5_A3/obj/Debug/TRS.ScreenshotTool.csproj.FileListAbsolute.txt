@@ -1,0 +1,12 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.ScreenshotTool.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.ScreenshotTool.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\NativeGallery.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\NativeShare.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.Extras.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.Share.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.ScreenshotTool.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.ScreenshotTool.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.Scre.4CCACA07.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.ScreenshotTool.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.ScreenshotTool.pdb

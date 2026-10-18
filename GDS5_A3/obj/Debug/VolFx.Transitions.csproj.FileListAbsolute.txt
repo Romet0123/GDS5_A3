@@ -1,0 +1,11 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.Transitions.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.Transitions.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\Tools.Runtime.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\ScreenFx.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\Tools.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Transitions.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Transitions.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Tr.63BA85ED.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Transitions.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Transitions.pdb

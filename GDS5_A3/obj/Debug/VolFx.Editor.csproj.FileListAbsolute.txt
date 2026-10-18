@@ -1,0 +1,9 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.Editor.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.Editor.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\Tools.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Editor.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Editor.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Ed.38DE08B6.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Editor.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Editor.pdb

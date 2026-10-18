@@ -1,0 +1,6 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\Tools.Runtime.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\Tools.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\Tools.Runtime.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\Tools.Runtime.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\Tools.Runtime.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\Tools.Runtime.pdb

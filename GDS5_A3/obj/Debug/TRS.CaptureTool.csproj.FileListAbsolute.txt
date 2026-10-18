@@ -1,0 +1,11 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\NativeShare.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\NativeGallery.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.Extras.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.Share.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.Capt.18DF5D55.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.pdb

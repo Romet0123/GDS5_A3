@@ -1,0 +1,8 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\ScreenFx.Editor.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\ScreenFx.Editor.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\ScreenFx.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Editor.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Editor.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.ED394626.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Editor.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Editor.pdb

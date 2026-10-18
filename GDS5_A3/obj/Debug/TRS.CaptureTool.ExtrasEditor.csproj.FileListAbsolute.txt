@@ -1,0 +1,8 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.ExtrasEditor.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.ExtrasEditor.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.Extras.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.ExtrasEditor.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.ExtrasEditor.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.Capt.E7576974.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.ExtrasEditor.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.ExtrasEditor.pdb

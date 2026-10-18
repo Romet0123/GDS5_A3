@@ -1,0 +1,8 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\HighlightPlus.Demo.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\HighlightPlus.Demo.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\HighlightPlus.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\HighlightPlus.Demo.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\HighlightPlus.Demo.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\Highligh.E967B974.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\HighlightPlus.Demo.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\HighlightPlus.Demo.pdb

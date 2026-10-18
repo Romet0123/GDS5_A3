@@ -1,0 +1,8 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\ScreenFx.Samples.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\ScreenFx.Samples.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\ScreenFx.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Samples.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Samples.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.DAF39A7F.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Samples.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\ScreenFx.Samples.pdb

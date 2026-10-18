@@ -1,0 +1,10 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.Samples.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.Samples.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\Tools.Runtime.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\VolFx.pdb
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\Tools.Runtime.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Samples.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Samples.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Sa.502ABAD4.Up2Date
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Samples.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\VolFx.Samples.pdb

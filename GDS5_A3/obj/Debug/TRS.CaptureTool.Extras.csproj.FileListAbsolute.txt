@@ -1,0 +1,6 @@
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.Extras.dll
+G:\GDS5_A3\GDS5_A3\Temp\bin\Debug\TRS.CaptureTool.Extras.pdb
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.Extras.csproj.AssemblyReference.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.Extras.csproj.CoreCompileInputs.cache
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.Extras.dll
+G:\GDS5_A3\GDS5_A3\obj\Debug\TRS.CaptureTool.Extras.pdb
