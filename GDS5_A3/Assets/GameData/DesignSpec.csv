@@ -1,9 +1,10 @@
-,,,,Rarity,,,,,,
-,,,,Common,,,,,,
-,,,,Uncommon,,,,,,
-,,,,Rare,,,,,,
-,,,,Legendary,,,,,,
-,,,,,,,,,,
+﻿,,,,,,,Game Rules (balance 02/11/2026),,,
+,,,,Rarity,Market Weight,,Starting Fortune,,30,
+,,,,Common,50,,Fortune per cleared round,,20,
+,,,,Uncommon,30,,Bet Ceiling,,"30% at start, max 100%",
+,,,,Rare,15,,KPI,,"Start 130,000; x1.8 per round; Day 2 x1.4, Day 3 x1.6",
+,,,,Legendary,5,,Excess profit penalty,,None,
+,,,,,,,Fortune modifier,,Each hit on a Fortune symbol gives 3 Fortune,
 ,,,,,,,,,,
 Config ID,Item Name,Category,Description,Rarity,Visible,Only in Devil Pact,Unlock Condition,Card State,Extra Note,
 0,Two More Times,Talisman,"+2 Dice Rolls, -10% value for all symbols",Common,TRUE,FALSE,None,Passive,,
@@ -26,49 +27,49 @@ Config ID,Item Name,Category,Description,Rarity,Visible,Only in Devil Pact,Unloc
 17,Silver Shrimp,Talisman,"Put Blessing on Shrimp, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
 18,Silver Gourb,Talisman,"Put Blessing on Gourd, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
 19,Discount,Talisman,-5 Fortune Require For Active Talisman,Rare,TRUE,FALSE,None,Passive,,
-20,Bet Hard,Talisman,"Bet ceilling +20%, -1 Bet Slot Coverage",Rare,TRUE,FALSE,None,Passive,,
-21,More Slot Please,Talisman,"+1 Bet Slot Coverage, -1 Dice Rolls",Uncommon,TRUE,FALSE,None,Passive,,
-22,No Need Water,Talisman,"Bet Ceiling +15%, but -25% Fish, Crab, Shrimp value",Uncommon,TRUE,FALSE,None,Passive,,
-23,No Need Surface,Talisman,"Bet Ceiling +10%, but -25% Deer, Chicken value",Uncommon,TRUE,FALSE,None,Passive,,
+20,Bet Hard,Talisman,"Bet ceilling +15%, -1 Bet Slot Coverage",Rare,TRUE,FALSE,None,Passive,,
+21,More Slot Please,Talisman,"+1 Bet Slot Coverage, +10% Bet Ceiling",Uncommon,TRUE,FALSE,None,Passive,,
+22,No Need Water,Talisman,"Bet Ceiling +10%, but -25% Fish, Crab, Shrimp value",Uncommon,TRUE,FALSE,None,Passive,,
+23,No Need Surface,Talisman,"Bet Ceiling +5%, but -25% Deer, Chicken value",Uncommon,TRUE,FALSE,None,Passive,,
 24,Hatch,Talisman,"+1 Bet Slot Coverage, but -25% Gourd value",Uncommon,TRUE,FALSE,None,Passive,,
 ,,,,,,,,,,
-25,Shuffle Blessing,Talisman,Consume 30 Fortune: Put 3 random positive modifer for 3 Random Symbols and Curse for other 3 Random Symbols this round.,Uncommon,TRUE,FALSE,None,Active,,Minimum: 10 Active Talisman
-26,Weather Blessing,Talisman,"Consume 40 Fortune: Morning +2 Dice, Evening -20% KPI Requirement during that round, Night: +10% Bet Ceilling this round.",Uncommon,TRUE,FALSE,None,Active,,
-27,Dice Blessing,Talisman,Consume 20 Fortune before rolling: +1 Dice.,Uncommon,TRUE,TRUE,None,Active,,
-28,Twist of Fate,Talisman,"Before rolling, you can activate the Devil Cheating immediately, +30 Fortune and +10% Bet Ceilling during that round",Rare,TRUE,FALSE,None,Active,,
-29,Double down where you fall,Talisman,"Consume 40 Fortune: If hit the next roll, -10% KPI Requirement. Otherwise +20% KPI Requirement",Rare,TRUE,FALSE,None,Active,,
-30,Lucky Pick,Talisman,Consume 10 Fortune: Put a random modifer for a Random Symbol this round.,Common,TRUE,FALSE,None,Active,,
-31,Predator sense,Talisman,"Consume 20 Fortune: Choose a symbol, that chosen symbol will has Predator modifer this round. 
-Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of other active modifiers this round.",Common,TRUE,FALSE,Predator,Active,,
-32,Clean,Talisman,Consume 60 Fortune: Clean a curse of a chosen cursed symbol.,Common,TRUE,FALSE,Blessing,Active,,
-33,Not Today,Talisman,Consume 100 Fortune: Win The Current Round immediately and destroy this talisman,Legendary,TRUE,FALSE,None,Active,,
-34,The Combination,Talisman,"Consume 90 Fortune: Choose a symbol. that chosen will have Predator and Blessing this round. 
-Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of other active modifiers this round.
+25,Shuffle Blessing,Talisman,Consume 15 Fortune: Put 3 random positive modifer for 3 Random Symbols and Curse for other 3 Random Symbols this round.,Uncommon,TRUE,FALSE,None,Active,,Minimum: 10 Active Talisman
+26,Weather Blessing,Talisman,"Consume 20 Fortune: Morning +2 Dice, Evening -30% KPI Requirement during that round, Night: +20% Bet Ceilling this round.",Uncommon,TRUE,FALSE,None,Active,,
+27,Dice Blessing,Talisman,Consume 20 Fortune before going out of dice: +1 Dice.,Uncommon,TRUE,TRUE,None,Active,,
+28,Twist of Fate,Talisman,"Before rolling, you can activate the Devil Cheating immediately, +30 Fortune and +10% Bet Ceilling during that round",Rare,FALSE,FALSE,None,Active,Removed from the game (balance update 02/11/2026),
+29,Double Down Where You Fall,Talisman,"Consume 20 Fortune: If hit the next roll, -20% KPI Requirement. Otherwise +2 Dice",Rare,TRUE,FALSE,None,Active,,
+30,Lucky Pick,Talisman,Consume 5 Fortune: Put a random modifer for a Random Symbol this round.,Common,TRUE,FALSE,None,Active,,
+31,Predator Sense,Talisman,"Consume 10 Fortune: Choose a symbol, that chosen symbol will has Predator modifer this round. 
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this round.",Common,TRUE,FALSE,Predator,Active,,
+32,Clean,Talisman,Consume 20 Fortune: Clean a curse of a chosen cursed symbol.,Common,TRUE,FALSE,Blessing,Active,,
+33,Not Today,Talisman,Consume 50 Fortune: Win The Current Round immediately and destroy this talisman,Legendary,TRUE,FALSE,None,Active,,
+34,The Combination,Talisman,"Consume 40 Fortune: Choose a symbol. that chosen will have Predator and Blessing this round. 
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this round.
 Blessed: +20% value on blessed symbols.",Legendary,TRUE,FALSE,Predator + Blessing,Active,,
 35,Trolling With The Devil,Talisman,Consume 80 Fortune: Activate The Devil Cheating but reverse their cheating effect.,Rare,TRUE,FALSE,None,Active,,
 36,Rewind Time,Talisman,"Consume 50 Fortune: Win and Return to last round immediately, Keep the own talisman, also destroy this talisman",Rare,TRUE,FALSE,None,Active,,
-37,Devil Got Cooked,Talisman,"Consume 300 Fortune: Deactive Devil's Cheating For Whole Game, and destroy this talisman.",Legendary,TRUE,FALSE,None,Active,,
+37,Devil Got Cooked,Talisman,"Consume 150 Fortune: Deactive Devil's Cheating For Whole Game, and destroy this talisman.",Legendary,TRUE,FALSE,None,Active,,
 ,,,,,,,,,,
-38,Good Enough,Talisman,-3 Dice Rolls and -30% KPI Requirement,Uncommon,TRUE,FALSE,None,Passive,,
+38,Good Enough,Talisman,-1 Dice Rolls and -30% KPI Requirement,Uncommon,TRUE,FALSE,None,Passive,,
 39,Last Breath,Talisman,"When you use your final roll and still haven't meet KPI, you will gain 2 more dice rolls. After the effect trigged, destroy this talisman.",Legendary,TRUE,FALSE,None,Passive,,
-40,Roll to fortune,Talisman,"Each round, automatically put Fortune on 2 random symbols, if you bet on and roll hit the fortunate symbol, you get 1 Fortune.",Common,TRUE,FALSE,None,Passive,,
+40,Roll to fortune,Talisman,"Each round, automatically put Fortune on 2 random symbols, if you bet on and roll hit the fortunate symbol, you get 3 Fortune.",Common,TRUE,FALSE,None,Passive,,
 41,Power Spread,Talisman,"+ 1 Bet Slot Coverage. If you bet on cursed symbol, put 3 random modifer into other symbols.",Uncommon,TRUE,FALSE,None,Passive,,
 42,Predator,Talisman,"Each round, automatically put Predator on 1 random symbols. 
-Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of other active modifiers this round.",Uncommon,TRUE,FALSE,None,Passive,,
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this round.",Uncommon,TRUE,FALSE,None,Passive,,
 43,Blessing,Talisman,"Each round, automatically put Blessing on 1 random symbols.
 Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-44,Cursed Fortune,Talisman,"+10% Cheating Chance, Each time the Devil Cheating, +2 Fortune for each positive modifer on the board.",Uncommon,TRUE,FALSE,None,Passive,,
+44,Cursed Fortune,Talisman,"+10% Cheating Chance, Each time the Devil Cheating, +3 Fortune for each positive modifer on the board.",Uncommon,TRUE,FALSE,None,Passive,,
 45,Lucky Draw,Talisman,"When you take this talisman, +2 Random Talisman",Uncommon,TRUE,FALSE,None,Passive,,
-46,Investment,Talisman,Each Talisman that activate generates 1 Fortune.,Rare,TRUE,FALSE,None,Passive,,
+46,Investment,Talisman,Each Talisman that activate generates 5 Fortune.,Rare,TRUE,FALSE,None,Passive,,
 47,Cheating to Grow,Talisman,"Each time the Devil Cheating, +10% Value for all symbols for the next roll.",Uncommon,TRUE,FALSE,None,Passive,,
 48,The Final Word,Talisman,Last Roll of the round +5% Value for all symbols (+1% for each talisman activated),Uncommon,TRUE,FALSE,None,Passive,,
 49,Curse,Talisman,"-20% KPI Requirement. Each round, put Curse on 2 random symbols
 Cursed Symbols: -20% value on cursed Symbols",Uncommon,TRUE,FALSE,None,Passive,,
 ,,,,,,,,,,
-1000,Devil of Greed (Mortal Realm),Devil,"Start with Dice Blessing Talisman
+1000,Devil of Greed (Mortal Realm),Devil,"Start with Dice Blessing Talisman.
 
 Tax Collector: Each round, put Curse on your previous betting symbols, Cursed Symbols: -20% value of all symbols.
-Cheating: When you start rolling, 20% to -2 Rolls and put Curse on all symbols, Cursed Symbols: -20% value of all symbols.",Mortal Realm,TRUE,TRUE,None,,,
+Cheating from round 4: When you start rolling, 20% to put Curse on all symbols, Cursed Symbols: -20% value of all symbols.",Mortal Realm,TRUE,TRUE,None,,,
 1001,Devil of Greed (Hungry Ghost Realm),Devil,"Start with Dice Blessing Talisman, +5% Bet Celling
 Skims 8% off every winning payout silently
 Cheating: Each round, 15% to -2 Rolls and -25% value of all symbols",Hungry Ghost Realm,TRUE,TRUE,Complete the Devil Greed,,,
@@ -76,14 +77,14 @@ Cheating: Each round, 15% to -2 Rolls and -25% value of all symbols",Hungry Ghos
 
 Skims 12% off every winning payout silently
 
-Leftover rolls on clear ? +10% KPI next round
+Leftover rolls on clear → +10% KPI next round
 
 Cheating: Each round, 20% to -2 Rolls and -25% value of all symbols",Hell Realm,TRUE,TRUE,,,,
 1003,Devil of Greed (Avacii),Devil,"Start with Dice Blessing Talisman, +1 Dice, +5% Bet Celling, +1 Slot Coverage
 
 Skims 15% off every winning payout silently
 
-Leftover rolls on clear ? +15% KPI next round
+Leftover rolls on clear → +15% KPI next round
 
 Cheating: Each round, 30% to -4 Rolls and -30% value of all symbols",Avicii,TRUE,TRUE,,,,
 ,,,,,,,,,,
@@ -191,22 +192,22 @@ Cheating: Each additional covered symbol reduces total payout by 10%.",,,,,,,
 
 Harsh Words: Next roll after a failed roll: -10% payout
 
-Cheating: 2 consecutive failures ? next roll -1 Bet Slot",,,,,,,
+Cheating: 2 consecutive failures → next roll -1 Bet Slot",,,,,,,
 1025,Devil of Harsh Speech (Hungry Ghost Realm),Devil,"+1 Roll , +8% Payout, +8% Starting Fortune
 
 Harsh Words: Next roll after a failed roll: -15% payout
 
-Cheating: 2 consecutive failures ? next roll -1 Bet Slot",,,,,,,
+Cheating: 2 consecutive failures → next roll -1 Bet Slot",,,,,,,
 1026,Devil of Harsh Speech (Hell Realm),Devil,"+1 Roll , +10% Payout, +10% Starting Fortune
 
 Harsh Words: Next roll after a failed roll: -20% payout
 
-Cheating: 2 consecutive failures ? next roll -2 Bet Slot",,,,,,,
+Cheating: 2 consecutive failures → next roll -2 Bet Slot",,,,,,,
 1027,Devil of Harsh Speech (Avacii),Devil,"+2 Roll , +12% Payout, +15% Starting Fortune
 
 Harsh Words: Next roll after a failed roll: -30% payout
 
-Cheating: 2 consecutive failures ? next roll -2 Bet Slot",,,,,,,
+Cheating: 2 consecutive failures → next roll -2 Bet Slot",,,,,,,
 1028,Devil Frivolous Speech (Mortal Realm),Devil,"+1 Rolls, +5% Bet Ceiling, +1 Bet Slot
 
 
