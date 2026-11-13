@@ -1,9 +1,9 @@
 ﻿key,value
 initial_money,100000
 initial_kpi,130000
-kpi_growth_rate,1.8
-kpi_day2_multiplier,1.4
-kpi_day3_multiplier,1.6
+kpi_growth_rate,1.4
+kpi_day2_multiplier,1
+kpi_day3_multiplier,1
 excess_profit_penalty_round5_percent,0
 excess_profit_penalty_late_percent,0
 initial_fortune,30

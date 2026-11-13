@@ -2,7 +2,7 @@
 ,,,,Rarity,Market Weight,,Starting Fortune,,30,
 ,,,,Common,50,,Fortune per cleared level,,20,
 ,,,,Uncommon,30,,Bet Ceiling,,"30% at start, max 100%",
-,,,,Rare,15,,KPI,,"Start 130,000; x1.8 per level; Day 2 x1.4, Day 3 x1.6",
+,,,,Rare,15,,KPI,,"Start 130,000; each level: max(KPI, player money) x1.4; no day multipliers",
 ,,,,Legendary,5,,Excess profit penalty,,None,
 ,,,,,,,Fortune modifier,,Each hit on a Fortune symbol gives 2 Fortune,
 ,,,,,,,,,,
