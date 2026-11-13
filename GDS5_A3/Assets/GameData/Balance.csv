@@ -8,10 +8,11 @@ excess_profit_penalty_round5_percent,0
 excess_profit_penalty_late_percent,0
 initial_fortune,30
 round_clear_fortune,20
+guaranteed_cheat_level,17
 base_bet_ceiling_percent,30
 max_bet_ceiling_percent,100
 base_bet_slots,2
-fortune_modifier_per_hit,3
+fortune_modifier_per_hit,2
 rarity_weight_common,50
 rarity_weight_uncommon,30
 rarity_weight_rare,15
