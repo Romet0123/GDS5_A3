@@ -2,12 +2,13 @@
 initial_money,100000
 initial_kpi,130000
 kpi_growth_rate,1.4
-kpi_day2_multiplier,1
-kpi_day3_multiplier,1
+kpi_day2_multiplier,1.4
+kpi_day3_multiplier,1.6
 excess_profit_penalty_round5_percent,0
 excess_profit_penalty_late_percent,0
 initial_fortune,30
 round_clear_fortune,20
+unused_roll_fortune,10
 guaranteed_cheat_level,17
 base_bet_ceiling_percent,30
 max_bet_ceiling_percent,100

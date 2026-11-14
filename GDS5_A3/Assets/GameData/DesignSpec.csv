@@ -10,11 +10,17 @@ Config ID,Item Name,Category,Description,Rarity,Visible,Only in Devil Pact,Unloc
 0,Two More Times,Talisman,"+2 Dice Rolls, -10% value for all symbols",Common,TRUE,FALSE,None,Passive,,
 1,Roll and Roll,Talisman,On any roll: 10% chance to gain +1 additional roll,Common,TRUE,FALSE,None,Passive,,
 2,Shrimp Swarm,Talisman,Each time Shrimp appears: 20% chance to gain +1 Dice Per Level (30% chance if betting on Shrimp),Uncommon,TRUE,FALSE,None,Passive,,
-3,Fish Fortune,Talisman,Each time Fish appears: 20% chance to add payout = 5% of current Debt (50% chance if betting on Fish),Uncommon,TRUE,FALSE,None,Passive,,
-4,Flourish,Talisman,Each time Gourd appears: 20% chance to gain +5% total payout (50% chance if betting on Gourd),Uncommon,TRUE,FALSE,None,Passive,,
-5,Crab Harvest,Talisman,"Night only: If betting on Crab and Crab appears, Crab gets +40% value",Uncommon,TRUE,FALSE,None,Passive,,
-6,Chicken Clock,Talisman,"Morning only: If betting on Chicken and Chicken appears, Chicken gets +40% value",Uncommon,TRUE,FALSE,None,Passive,,
-7,Oh Deer,Talisman,"Evening only: If betting on Deer and Deer appears, Deer gets +40% value",Uncommon,TRUE,FALSE,None,Passive,,
+3,Fish Fortune,Talisman,"Put Fortune on Fish. Each Night: Fish gains 1 permanent Fortune and temporary Blessing & Predator for that level.
+Blessed Symbols: +20% value on blessed symbols.
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this level.
+Fortune Symbols: if you bet on and roll hit the Fortune symbol, you get 2 Fortune.",Uncommon,TRUE,FALSE,None,Passive,,
+4,Flourish,Talisman,"Put Fortune on Gourd. Each Evening: Gourd gains 1 permanent Fortune and temporary Blessing & Predator for that level.
+Blessed Symbols: +20% value on blessed symbols.
+Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this level.
+Fortune Symbols: if you bet on and roll hit the Fortune symbol, you get 2 Fortune.",Uncommon,TRUE,FALSE,None,Passive,,
+5,Crab Harvest,Talisman,"Crab +10% value. Each Night: Crab gains 1 permanent Blessing and temporary Predator for that round.",Uncommon,TRUE,FALSE,None,Passive,,
+6,Chicken Clock,Talisman,"Chicken +10% value. Each Morning: Chicken gains 1 permanent Blessing and temporary Predator for that round.",Uncommon,TRUE,FALSE,None,Passive,,
+7,Oh Deer,Talisman,"Deer +10% value. Each Evening: Deer gains 1 permanent Blessing and temporary Predator for that round.",Uncommon,TRUE,FALSE,None,Passive,,
 8,Keep Double Up,Talisman,"When 2 dice match a symbol you are betting on, x2 value on that symbol",Common,TRUE,FALSE,None,Passive,,
 9,Keep Tribble Up,Talisman,"When 3 dice match a symbol you are betting on, x3 value on that symbol",Common,TRUE,FALSE,None,Passive,,
 10,All In,Talisman,"If you bet on only 1 symbol, that symbol gets +20% value for each dice hit",Rare,TRUE,FALSE,None,Passive,,
@@ -30,8 +36,8 @@ Config ID,Item Name,Category,Description,Rarity,Visible,Only in Devil Pact,Unloc
 20,Bet Hard,Talisman,"Bet ceilling +15%, -1 Bet Slot Coverage",Rare,TRUE,FALSE,None,Passive,,
 21,More Slot Please,Talisman,"+1 Bet Slot Coverage, +10% Bet Ceiling",Uncommon,TRUE,FALSE,None,Passive,,
 22,No Need Water,Talisman,"Bet Ceiling +10%, but -25% Fish, Crab, Shrimp value",Uncommon,TRUE,FALSE,None,Passive,,
-23,No Need Surface,Talisman,"Bet Ceiling +5%, but -25% Deer, Chicken value",Uncommon,TRUE,FALSE,None,Passive,,
-24,Hatch,Talisman,"+1 Bet Slot Coverage, but -25% Gourd value",Uncommon,TRUE,FALSE,None,Passive,,
+23,No Need Surface,Talisman,"Bet Ceiling +10%, but -25% Deer, Chicken value",Uncommon,TRUE,FALSE,None,Passive,,
+24,Hatch,Talisman,"+1 Bet Slot Coverage, Bet Ceiling +10%",Uncommon,FALSE,FALSE,None,Passive,,
 ,,,,,,,,,,
 25,Shuffle Blessing,Talisman,Consume 15 Fortune: Put 3 random positive modifer for 3 Random Symbols and Curse for other 3 Random Symbols this level.,Uncommon,TRUE,FALSE,None,Active,,Minimum: 10 Active Talisman
 26,Weather Blessing,Talisman,"Consume 20 Fortune: Morning +2 Dice, Evening -30% KPI Requirement during that level, Night: +20% Bet Ceilling this level.",Uncommon,TRUE,FALSE,None,Active,,
