@@ -9,64 +9,64 @@
 Config ID,Item Name,Category,Description,Rarity,Visible,Only in Devil Pact,Unlock Condition,Card State,Extra Note,
 0,Two More Times,Talisman,"+2 Dice Rolls, -10% value for all symbols",Common,TRUE,FALSE,None,Passive,,
 1,Roll and Roll,Talisman,On any roll: 10% chance to gain +1 additional roll,Common,TRUE,FALSE,None,Passive,,
-2,Shrimp Swarm,Talisman,Each time Shrimp appears: 20% chance to gain +1 Dice Per Level (30% chance if betting on Shrimp),Uncommon,TRUE,FALSE,None,Passive,,
-3,Fish Fortune,Talisman,"Put Fortune on Fish. Each Night: Fish gains 1 permanent Fortune and temporary Blessing & Predator for that level.
+2,Shrimp Swarm,Talisman,Each time <sprite=5> appears: 20% chance to gain +1 Dice Per Level (30% chance if betting on <sprite=5>),Uncommon,TRUE,FALSE,None,Passive,,
+3,Fish Fortune,Talisman,"Put Fortune on <sprite=3>. Each Night: <sprite=3> gains 1 permanent Fortune and temporary Blessing & Predator for that level.
 Blessed Symbols: +20% value on blessed symbols.
 Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this level.
-Fortune Symbols: if you bet on and roll hit the Fortune symbol, you get 2 Fortune.",Uncommon,TRUE,FALSE,None,Passive,,
-4,Flourish,Talisman,"Put Fortune on Gourd. Each Evening: Gourd gains 1 permanent Fortune and temporary Blessing & Predator for that level.
+Fortune Symbols: if you bet on and roll hit the Fortune symbol, you get 2 <sprite=6>.",Uncommon,TRUE,FALSE,None,Passive,,
+4,Flourish,Talisman,"Put Fortune on <sprite=1>. Each Evening: <sprite=1> gains 1 permanent Fortune and temporary Blessing & Predator for that level.
 Blessed Symbols: +20% value on blessed symbols.
 Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this level.
-Fortune Symbols: if you bet on and roll hit the Fortune symbol, you get 2 Fortune.",Uncommon,TRUE,FALSE,None,Passive,,
-5,Crab Harvest,Talisman,"Crab +10% value. Each Night: Crab gains 1 permanent Blessing and temporary Predator for that round.",Uncommon,TRUE,FALSE,None,Passive,,
-6,Chicken Clock,Talisman,"Chicken +10% value. Each Morning: Chicken gains 1 permanent Blessing and temporary Predator for that round.",Uncommon,TRUE,FALSE,None,Passive,,
-7,Oh Deer,Talisman,"Deer +10% value. Each Evening: Deer gains 1 permanent Blessing and temporary Predator for that round.",Uncommon,TRUE,FALSE,None,Passive,,
+Fortune Symbols: if you bet on and roll hit the Fortune symbol, you get 2 <sprite=6>.",Uncommon,TRUE,FALSE,None,Passive,,
+5,Crab Harvest,Talisman,<sprite=4> +10% value. Each Night: <sprite=4> gains 1 permanent Blessing and temporary Predator for that round.,Uncommon,TRUE,FALSE,None,Passive,,
+6,Chicken Clock,Talisman,<sprite=2> +10% value. Each Morning: <sprite=2> gains 1 permanent Blessing and temporary Predator for that round.,Uncommon,TRUE,FALSE,None,Passive,,
+7,Oh Deer,Talisman,<sprite=0> +10% value. Each Evening: <sprite=0> gains 1 permanent Blessing and temporary Predator for that round.,Uncommon,TRUE,FALSE,None,Passive,,
 8,Keep Double Up,Talisman,"When 2 dice match a symbol you are betting on, x2 value on that symbol",Common,TRUE,FALSE,None,Passive,,
 9,Keep Tribble Up,Talisman,"When 3 dice match a symbol you are betting on, x3 value on that symbol",Common,TRUE,FALSE,None,Passive,,
 10,All In,Talisman,"If you bet on only 1 symbol, that symbol gets +20% value for each dice hit",Rare,TRUE,FALSE,None,Passive,,
 11,Betting Tactic,Talisman,"If you bet on 2 or more symbols, each that symbol gets +20% value for each dice hit",Rare,TRUE,FALSE,None,Passive,,
 12,"Still Breathing, Still Gambling",Talisman,"If no hit this roll, gain +20% value to betting symbols' value for next roll.",Uncommon,TRUE,FALSE,None,Passive,,
-13,Silver Crab,Talisman,"Put Blessing on Crab, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-14,Silver Deer,Talisman,"Put Blessing on Deer, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-15,Silver Chicken,Talisman,"Put Blessing on Chicken, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-16,Silver Fish,Talisman,"Put Blessing on Fish, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-17,Silver Shrimp,Talisman,"Put Blessing on Shrimp, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-18,Silver Gourb,Talisman,"Put Blessing on Gourd, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-19,Discount,Talisman,-5 Fortune Require For Active Talisman,Rare,TRUE,FALSE,None,Passive,,
+13,Silver Crab,Talisman,"Put Blessing on <sprite=4>, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+14,Silver Deer,Talisman,"Put Blessing on <sprite=0>, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+15,Silver Chicken,Talisman,"Put Blessing on <sprite=2>, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+16,Silver Fish,Talisman,"Put Blessing on <sprite=3>, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+17,Silver Shrimp,Talisman,"Put Blessing on <sprite=5>, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+18,Silver Gourb,Talisman,"Put Blessing on <sprite=1>, Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
+19,Discount,Talisman,-5 <sprite=6> Require For Active Talisman,Rare,TRUE,FALSE,None,Passive,,
 20,Bet Hard,Talisman,"Bet ceilling +15%, -1 Bet Slot Coverage",Rare,TRUE,FALSE,None,Passive,,
 21,More Slot Please,Talisman,"+1 Bet Slot Coverage, +10% Bet Ceiling",Uncommon,TRUE,FALSE,None,Passive,,
-22,No Need Water,Talisman,"Bet Ceiling +10%, but -25% Fish, Crab, Shrimp value",Uncommon,TRUE,FALSE,None,Passive,,
-23,No Need Surface,Talisman,"Bet Ceiling +10%, but -25% Deer, Chicken value",Uncommon,TRUE,FALSE,None,Passive,,
+22,No Need Water,Talisman,"Bet Ceiling +10%, but -25% <sprite=3>, <sprite=4>, <sprite=5> value",Uncommon,TRUE,FALSE,None,Passive,,
+23,No Need Surface,Talisman,"Bet Ceiling +10%, but -25% <sprite=0>, <sprite=2> value",Uncommon,TRUE,FALSE,None,Passive,,
 24,Hatch,Talisman,"+1 Bet Slot Coverage, Bet Ceiling +10%",Uncommon,FALSE,FALSE,None,Passive,,
 ,,,,,,,,,,
-25,Shuffle Blessing,Talisman,Consume 15 Fortune: Put 3 random positive modifer for 3 Random Symbols and Curse for other 3 Random Symbols this level.,Uncommon,TRUE,FALSE,None,Active,,Minimum: 10 Active Talisman
-26,Weather Blessing,Talisman,"Consume 20 Fortune: Morning +2 Dice, Evening -30% KPI Requirement during that level, Night: +20% Bet Ceilling this level.",Uncommon,TRUE,FALSE,None,Active,,
-27,Dice Blessing,Talisman,Consume 20 Fortune before going out of dice: +1 Dice.,Uncommon,TRUE,TRUE,None,Active,,
-28,Twist of Fate,Talisman,"Before rolling, you can activate the Devil Cheating immediately, +30 Fortune and +10% Bet Ceilling during that level",Rare,FALSE,FALSE,None,Active,Removed from the game (balance update 02/11/2026),
-29,Double Down Where You Fall,Talisman,"Consume 20 Fortune: If hit the next roll, -20% KPI Requirement. Otherwise +2 Dice",Rare,TRUE,FALSE,None,Active,,
-30,Lucky Pick,Talisman,Consume 5 Fortune: Put a random modifer for a Random Symbol this level.,Common,TRUE,FALSE,None,Active,,
-31,Predator Sense,Talisman,"Consume 10 Fortune: Choose a symbol, that chosen symbol will has Predator modifer this level. 
+25,Shuffle Blessing,Talisman,Consume 15 <sprite=6>: Put 3 random positive modifer for 3 Random Symbols and Curse for other 3 Random Symbols this level.,Uncommon,TRUE,FALSE,None,Active,,Minimum: 10 Active Talisman
+26,Weather Blessing,Talisman,"Consume 20 <sprite=6>: Morning +2 Dice, Evening -30% KPI Requirement during that level, Night: +20% Bet Ceilling this level.",Uncommon,TRUE,FALSE,None,Active,,
+27,Dice Blessing,Talisman,Consume 20 <sprite=6> before going out of dice: +1 Dice.,Uncommon,TRUE,TRUE,None,Active,,
+28,Twist of Fate,Talisman,"Before rolling, you can activate the Devil Cheating immediately, +30 <sprite=6> and +10% Bet Ceilling during that level",Rare,FALSE,FALSE,None,Active,Removed from the game (balance update 02/11/2026),
+29,Double Down Where You Fall,Talisman,"Consume 20 <sprite=6>: If hit the next roll, -20% KPI Requirement. Otherwise +2 Dice",Rare,TRUE,FALSE,None,Active,,
+30,Lucky Pick,Talisman,Consume 5 <sprite=6>: Put a random modifer for a Random Symbol this level.,Common,TRUE,FALSE,None,Active,,
+31,Predator Sense,Talisman,"Consume 10 <sprite=6>: Choose a symbol, that chosen symbol will has Predator modifer this level. 
 Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this level.",Common,TRUE,FALSE,Predator,Active,,
-32,Clean,Talisman,Consume 20 Fortune: Clean a curse of a chosen cursed symbol.,Common,TRUE,FALSE,Blessing,Active,,
-33,Not Today,Talisman,Consume 50 Fortune: Win The Current Level immediately and destroy this talisman,Legendary,TRUE,FALSE,None,Active,,
-34,The Combination,Talisman,"Consume 40 Fortune: Choose a symbol. that chosen will have Predator and Blessing this level. 
+32,Clean,Talisman,Consume 20 <sprite=6>: Clean a curse of a chosen cursed symbol.,Common,TRUE,FALSE,Blessing,Active,,
+33,Not Today,Talisman,Consume 50 <sprite=6>: Win The Current Level immediately and destroy this talisman,Legendary,TRUE,FALSE,None,Active,,
+34,The Combination,Talisman,"Consume 40 <sprite=6>: Choose a symbol. that chosen will have Predator and Blessing this level. 
 Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this level.
 Blessed: +20% value on blessed symbols.",Legendary,TRUE,FALSE,Predator + Blessing,Active,,
-35,Trolling With The Devil,Talisman,Consume 80 Fortune: Activate The Devil Cheating but reverse their cheating effect.,Rare,TRUE,FALSE,None,Active,,
-36,Rewind Time,Talisman,"Consume 50 Fortune: Win and Return to last level immediately, Keep the own talisman, also destroy this talisman",Rare,TRUE,FALSE,None,Active,,
-37,Devil Got Cooked,Talisman,"Consume 150 Fortune: Deactive Devil's Cheating For Whole Game, and destroy this talisman.",Legendary,TRUE,FALSE,None,Active,,
+35,Trolling With The Devil,Talisman,Consume 80 <sprite=6>: Activate The Devil Cheating but reverse their cheating effect.,Rare,TRUE,FALSE,None,Active,,
+36,Rewind Time,Talisman,"Consume 50 <sprite=6>: Win and Return to last level immediately, Keep the own talisman, also destroy this talisman",Rare,TRUE,FALSE,None,Active,,
+37,Devil Got Cooked,Talisman,"Consume 150 <sprite=6>: Deactive Devil's Cheating For Whole Game, and destroy this talisman.",Legendary,TRUE,FALSE,None,Active,,
 ,,,,,,,,,,
 38,Good Enough,Talisman,-1 Dice Rolls and -30% KPI Requirement,Uncommon,TRUE,FALSE,None,Passive,,
 39,Last Breath,Talisman,"When you use your final roll and still haven't meet KPI, you will gain 2 more dice rolls. After the effect trigged, destroy this talisman.",Legendary,TRUE,FALSE,None,Passive,,
-40,Roll to fortune,Talisman,"Each level, automatically put Fortune on 2 random symbols, if you bet on and roll hit the fortunate symbol, you get 2 Fortune.",Common,TRUE,FALSE,None,Passive,,
+40,Roll to fortune,Talisman,"Each level, automatically put Fortune on 2 random symbols, if you bet on and roll hit the fortunate symbol, you get 2 <sprite=6>.",Common,TRUE,FALSE,None,Passive,,
 41,Power Spread,Talisman,"+ 1 Bet Slot Coverage. If you bet on cursed symbol, put 3 random modifer into other symbols.",Uncommon,TRUE,FALSE,None,Passive,,
 42,Predator,Talisman,"Each level, automatically put Predator on 1 random symbols. 
 Predator: When bet on and rolled, the Predator gains +N% value and a random other symbol loses N% value, where N is the number of all active modifiers this level.",Uncommon,TRUE,FALSE,None,Passive,,
 43,Blessing,Talisman,"Each level, automatically put Blessing on 1 random symbols.
 Blessed Symbols: +20% value on blessed symbols.",Common,TRUE,FALSE,None,Passive,,
-44,Cursed Fortune,Talisman,"+10% Cheating Chance, Each time the Devil Cheating, +2 Fortune for each positive modifer on the board.",Uncommon,TRUE,FALSE,None,Passive,,
+44,Cursed Fortune,Talisman,"+10% Cheating Chance, Each time the Devil Cheating, +2 <sprite=6> for each negative modifiers on the board.",Uncommon,TRUE,FALSE,None,Passive,,
 45,Lucky Draw,Talisman,"When you take this talisman, +2 Random Talisman",Uncommon,TRUE,FALSE,None,Passive,,
-46,Investment,Talisman,Each Talisman that activate generates 4 Fortune.,Rare,TRUE,FALSE,None,Passive,,
+46,Investment,Talisman,Each Talisman that activate generates 4 <sprite=6>.,Rare,TRUE,FALSE,None,Passive,,
 47,Cheating to Grow,Talisman,"Each time the Devil Cheating, +10% Value for all symbols for the next roll.",Uncommon,TRUE,FALSE,None,Passive,,
 48,The Final Word,Talisman,Last Roll of the level +5% Value for all symbols (+1% for each talisman activated),Uncommon,TRUE,FALSE,None,Passive,,
 49,Curse,Talisman,"-20% KPI Requirement. Each level, put Curse on 2 random symbols

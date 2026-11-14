@@ -8,7 +8,7 @@ excess_profit_penalty_round5_percent,0
 excess_profit_penalty_late_percent,0
 initial_fortune,30
 round_clear_fortune,20
-unused_roll_fortune,10
+unused_roll_fortune,5
 guaranteed_cheat_level,17
 base_bet_ceiling_percent,30
 max_bet_ceiling_percent,100
